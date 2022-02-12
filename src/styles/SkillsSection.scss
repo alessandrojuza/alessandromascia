@@ -1,0 +1,24 @@
+.skills-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  padding-top: 70px;
+  color: #001219;
+
+  background: #c3e4d9;
+  background-image: url(../img/wave-1.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+
+  .skill-box {
+    height: 650px;
+    min-height: 500px;
+    width: 1000px;
+    border-radius: 7px;
+    background: antiquewhite;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+}

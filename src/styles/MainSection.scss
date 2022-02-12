@@ -6,6 +6,7 @@
   justify-content: space-between;
 
   height: 100vh;
+  margin: 0;
 
   .logo-section {
     display: flex;
@@ -16,6 +17,7 @@
     margin: auto;
     width: 800px;
     height: 700px;
+    min-height: 700px;
 
     background-image: url(../img/leaf.svg);
     background-size: contain;
@@ -36,11 +38,35 @@
       font-size: 13.5pt;
       color: #ee9b00;
     }
+
+    .social-icon-container {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+      width: 200px;
+
+      .social-icon {
+        color: antiquewhite;
+        font-size: 26pt;
+
+        transition: color 0.3s;
+      }
+
+      .social-icon:hover {
+        cursor: pointer;
+        color: #bb3e03;
+      }
+    }
   }
 
   .bottom-section {
-    h1 {
-      margin: 0;
+    .arrow-down-icon {
+      color: antiquewhite;
+      font-size: 34pt;
+    }
+
+    .arrow-down-icon:hover {
+      cursor: pointer;
     }
   }
 }
