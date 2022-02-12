@@ -1,9 +1,10 @@
 import "./App.scss";
+import MainSection from "./components/MainSection";
 
 function App() {
   return (
     <div className="App">
-      <h1>CIAO</h1>
+      <MainSection />
     </div>
   );
 }
