@@ -1,7 +1,7 @@
 .skills-section {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  //   flex-direction: column;
+  justify-content: space-evenly;
   align-items: center;
 
   height: 100vh;
@@ -14,7 +14,8 @@
   background-position: top;
   background-size: contain;
 
-  .skill-box {
+  .skill-box,
+  .project-box {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -22,19 +23,23 @@
 
     height: 650px;
     min-height: 500px;
-    width: 1000px;
+    width: 700px;
     border-radius: 7px;
     background: rgba(250, 235, 215, 0.555);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
-    .coding-skills,
-    .other-skills {
-      width: 800px;
-      height: 200px;
+    .coding-skills {
+      width: 600px;
+      height: 400px;
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
       justify-content: center;
       align-items: center;
+    }
+
+    h1 {
+      margin-bottom: 60px;
     }
   }
 }

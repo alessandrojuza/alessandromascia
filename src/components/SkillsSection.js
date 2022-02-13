@@ -15,22 +15,23 @@ import IconFinalCut from "../img/skill-icons/icon-fcpx.png";
 const SkillsSection = () => {
   return (
     <div className="skills-section">
-      <h1>SKILLS</h1>
       <div className="skill-box">
+        <h1>SKILLS</h1>
         <div className="coding-skills">
           <SingleSkill imgUrl={IconHtml} name="HTML" />
           <SingleSkill imgUrl={IconCss} name="CSS" />
           <SingleSkill imgUrl={IconJavascript} name="JavaScript" />
           <SingleSkill imgUrl={IconSass} name="SASS" />
           <SingleSkill imgUrl={IconReact} name="ReactJS" />
-        </div>
-        <div className="other-skills">
           <SingleSkill imgUrl={IconPhotoshop} name="Adobe Photoshop" />
-          <SingleSkill imgUrl={IconXd} name="Adobe XD" />
+          {/* <SingleSkill imgUrl={IconXd} name="Adobe XD" /> */}
           <SingleSkill imgUrl={IconFigma} name="Figma" />
           <SingleSkill imgUrl={IconLogicPro} name="Logic Pro" />
           <SingleSkill imgUrl={IconFinalCut} name="Final Cut Pro" />
         </div>
+      </div>
+      <div className="project-box">
+        <h1>PROJECTS</h1>
       </div>
     </div>
   );
