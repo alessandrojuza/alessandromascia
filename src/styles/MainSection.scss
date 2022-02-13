@@ -72,3 +72,11 @@
     }
   }
 }
+
+@media (max-width: 992px) {
+  .main-section {
+    .logo-section {
+      transform: scale(0.9);
+    }
+  }
+}

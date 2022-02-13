@@ -61,3 +61,41 @@
     }
   }
 }
+
+@media (max-width: 1500px) {
+  .skills-section {
+    .skill-section-subcontainer {
+      .skill-box {
+        width: 500px;
+        .coding-skills {
+          width: 450px;
+        }
+      }
+      .project-box {
+        width: 500px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1201px) {
+  .skills-section {
+    height: 1400px;
+    .skill-section-subcontainer {
+      flex-direction: column;
+      height: 1400px;
+
+      .skill-box {
+        width: 500px;
+        height: 550px;
+        .coding-skills {
+          width: 450px;
+        }
+      }
+      .project-box {
+        width: 500px;
+        height: 600px;
+      }
+    }
+  }
+}

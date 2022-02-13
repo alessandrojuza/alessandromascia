@@ -39,3 +39,18 @@
     }
   }
 }
+
+@media (max-width: 992px) {
+  .footer {
+    .text-container {
+      width: 650px;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .footer {
+    .text-container {
+      width: 500px;
+    }
+  }
+}
