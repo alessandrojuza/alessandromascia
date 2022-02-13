@@ -1,20 +1,26 @@
 .skills-section {
+  overflow: hidden;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 
   height: 100vh;
+  min-height: 1080px;
+
   color: #001219;
 
   background: #c3e4d9;
   background-image: url(../img/skills-section-background.png);
 
   .skill-section-subcontainer {
+    overflow: hidden;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 
     height: 100vh;
+    min-height: 1080px;
+
     width: 100%;
     padding-top: 25px;
 

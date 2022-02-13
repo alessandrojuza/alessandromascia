@@ -47,7 +47,7 @@ const SkillsSection = () => {
               description="A website for a fictional fashion brand."
               websiteUrl="https://alexandre-fashion.netlify.app/"
               githubUrl="https://github.com/alessandrojuza/alexandre"
-              features={"ReactJS, SASS, Axios, Responsive"}
+              features={"ReactJS, SASS, Axios, Adobe Photoshop, Responsive"}
             />
             <SingleProject
               imgUrl={accudartsIcon}
@@ -55,7 +55,7 @@ const SkillsSection = () => {
               description="Accu Darts is an online scoreboard for darts players."
               websiteUrl="https://accudarts.netlify.app/"
               githubUrl="https://github.com/alessandrojuza/accu-darts"
-              features={"ReactJS, SASS, Responsive"}
+              features={"ReactJS, SASS, Adobe Photoshop, Responsive"}
             />
             <SingleProject
               imgUrl={TooshortIcon}
@@ -64,7 +64,7 @@ const SkillsSection = () => {
           2Short is a little web app that allows the user to shorten a long URL."
               websiteUrl="https://2short.netlify.app/"
               githubUrl="https://github.com/alessandrojuza/2short"
-              features={"ReactJS, SASS, Axios, Responsive"}
+              features={"ReactJS, SASS, Axios, Adobe Photoshop, Responsive"}
             />
           </div>
         </Fade>
