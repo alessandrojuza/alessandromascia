@@ -4,13 +4,12 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailIcon from "@mui/icons-material/Email";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
-import { Link } from "react-router-dom";
 
 import Header from "./Header";
 
 const MainSection = () => {
   return (
-    <div className="main-section">
+    <div className="main-section" id="home">
       <div className="header-section">
         <Header />
       </div>
@@ -19,9 +18,25 @@ const MainSection = () => {
         <h1>MASCIA</h1>
         <h2>FRONT END DEVELOPER</h2>
         <div className="social-icon-container">
-          <GitHubIcon className="social-icon" />
-          <LinkedInIcon className="social-icon" />
-          <EmailIcon className="social-icon" />
+          <GitHubIcon
+            className="social-icon"
+            onClick={() =>
+              window.open("https://github.com/alessandrojuza", "_blank")
+            }
+          />
+          <LinkedInIcon
+            className="social-icon"
+            onClick={() =>
+              window.open(
+                "https://www.linkedin.com/in/alessandro-mascia",
+                "_blank"
+              )
+            }
+          />
+          <EmailIcon
+            className="social-icon"
+            onClick={() => window.open("mailto:mascia.alessandro89@gmail.com")}
+          />
         </div>
       </div>
       <div className="bottom-section">
