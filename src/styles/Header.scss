@@ -37,3 +37,23 @@
     }
   }
 }
+
+@media (max-width: 576px) {
+  .header {
+    .section-container {
+      a {
+        font-size: 7pt;
+      }
+
+      .home-link {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 414px) {
+  .header {
+    display: none;
+  }
+}

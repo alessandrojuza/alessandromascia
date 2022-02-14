@@ -99,3 +99,36 @@
     }
   }
 }
+
+@media (max-width: 576px) {
+  .skills-section {
+    .skill-section-subcontainer {
+      .skill-box {
+        width: 400px;
+        .coding-skills {
+          width: 400px;
+        }
+      }
+      .project-box {
+        width: 400px;
+      }
+    }
+  }
+}
+
+@media (max-width: 414px) {
+  .skills-section {
+    .skill-section-subcontainer {
+      .skill-box {
+        width: 320px;
+        .coding-skills {
+          width: 320px;
+          font-size: 10pt;
+        }
+      }
+      .project-box {
+        width: 320px;
+      }
+    }
+  }
+}

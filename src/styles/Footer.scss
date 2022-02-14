@@ -54,3 +54,32 @@
     }
   }
 }
+
+@media (max-width: 576px) {
+  .footer {
+    .text-container {
+      width: 400px;
+      h1 {
+        font-size: 28pt;
+      }
+      p {
+        font-size: 10pt;
+      }
+    }
+  }
+}
+
+@media (max-width: 414px) {
+  .footer {
+    .text-container {
+      width: 300px;
+      h1 {
+        font-size: 24pt;
+      }
+      p {
+        font-size: 8pt;
+        line-height: 20px;
+      }
+    }
+  }
+}

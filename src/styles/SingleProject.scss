@@ -42,3 +42,28 @@
     width: 450px;
   }
 }
+
+@media (max-width: 576px) {
+  .single-project {
+    width: 400px;
+  }
+}
+
+@media (max-width: 414px) {
+  .single-project {
+    width: 320px;
+    grid-template-columns: 0.4fr 0.4fr 0.2fr;
+
+    .text-container {
+      text-align: center;
+
+      h4 {
+        font-size: 9pt;
+      }
+
+      p {
+        font-size: 10pt;
+      }
+    }
+  }
+}
